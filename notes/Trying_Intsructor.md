@@ -363,6 +363,7 @@ SpamClassification(class_label=<Labels.NOT_SPAM: 'not_spam'>)
 ```
 
 上記の例ではうまくいく走るよう調整を行いましたが、定義の仕方次第ではうまく行かない例もありました。結局はモデルが function calling を適切に行なってくれるようチューニングが必要となります。
+（具体的には、指示文と関数を英語にしてみました。）
 
 参考までに、Instructor を使わなかった場合:
 
