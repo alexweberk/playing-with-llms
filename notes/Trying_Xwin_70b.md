@@ -1,6 +1,6 @@
 # GPT-4 超えと呼ばれる Xwin-70b を試してみる
 
-今回は AlpacaEval において GPT-4 超えと呼ばれる Xwin-70b を試してみます。
+今回は AlpacaEval において GPT-4 超えたとされる Xwin-70b を試してみます。
 
 - Huggingface: https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1
 - 論文: 未発表
