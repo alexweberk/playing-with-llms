@@ -16,6 +16,7 @@ with open(filename, "w") as f:
 - Huggingface: <<huggingface_link>>
 - 論文: <<paper_link>>
 - ライセンス: <<license>>
+- リリース記事: <<release_post>>
 
 ## コードと手順
 
@@ -62,6 +63,8 @@ https://twitter.com/alexweberk
 
 ## 参考
 
+
+#機械学習 #AI #自然言語 #python
     """.strip()
     )
 print(f"Created {filename}")
