@@ -64,7 +64,7 @@ https://twitter.com/alexweberk
 ## 参考
 
 
-#機械学習 #AI #自然言語 #python
+#機械学習 #AI #自然言語処理 #python #LLM
     """.strip()
     )
 print(f"Created {filename}")
