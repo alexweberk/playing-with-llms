@@ -1,3 +1,7 @@
 gists/
 node_modules/
 tryouts/
+storage/
+data/
+**/*.bin
+**/*.sqlite3

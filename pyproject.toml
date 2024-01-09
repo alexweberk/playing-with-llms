@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 120
+exclude = [
+    "build",
+    "dist",
+    "*.egg-info",
+    ".git",
+    ".venv",
+    "__pycache__",
+]
+include = ["*.py", "*.ipynb"]
+force-exclude = true
+fixable = ["ALL"]
+pydocstyle.convention = "google"
