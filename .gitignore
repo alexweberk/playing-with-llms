@@ -5,3 +5,8 @@ storage/
 data/
 **/*.bin
 **/*.sqlite3
+**/checkpoints/**
+**/*.json
+**/*.safetensors
+**/*.model
+**/*.npz
