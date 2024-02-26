@@ -3,6 +3,7 @@ node_modules/
 tryouts/
 storage/
 data/
+data_ja/
 **/*.bin
 **/*.sqlite3
 **/checkpoints/**
