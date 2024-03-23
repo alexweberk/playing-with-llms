@@ -11,3 +11,5 @@ data_ja/
 **/*.safetensors
 **/*.model
 **/*.npz
+
+.env
