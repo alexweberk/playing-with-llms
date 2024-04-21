@@ -13,3 +13,5 @@ data_ja/
 **/*.npz
 
 .env
+notebooks/micrograd.ipynb
+experiments/
