@@ -1,14 +1,29 @@
+[project]
+name = "playing-with-llms"
+version = "0.1.0"
+description = "Playing with LLMs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "firecrawl-py>=1.11.0",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.3.5",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+]
+
 [tool.ruff]
 line-length = 120
-exclude = [
-    "build",
-    "dist",
-    "*.egg-info",
-    ".git",
-    ".venv",
-    "__pycache__",
-]
+exclude = ["build", "dist", "*.egg-info", ".git", ".venv", "__pycache__"]
 include = ["*.py", "*.ipynb"]
 force-exclude = true
 fixable = ["ALL"]
 pydocstyle.convention = "google"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ipython>=8.32.0",
+]
